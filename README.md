@@ -14,4 +14,9 @@ cordova platform add android --save
 # ~~ stable version ~~
 cordova plugin add cordova-plugin-email-composer@0.8.3
 ```
-* Now deploy the project in the device and run.
+* Now build and deploy the project in the device and run.
+```
+cordova build 
+
+cordova run ios
+cordova run android
