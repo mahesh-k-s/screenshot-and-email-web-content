@@ -35,7 +35,7 @@ var app = {
     onDeviceReady: function() {
         //callNativeFunction();
         document.getElementById('capture-image').addEventListener('click',function(){
-              var element = document.getElementsByClassName('red-container');
+              var element = document.getElementsByClassName('source-container');
               html2canvas(element, {
                 onrendered: function(canvas) {
                     var dataURL = canvas.toDataURL();
